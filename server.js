@@ -6,7 +6,6 @@ const app = express();
 const port = 3000;
 
 // a change from new mac
-// a second  change from new mac
 
 // Endpoint to fetch data from JSON file
 app.get("/pins", (req, res) => {

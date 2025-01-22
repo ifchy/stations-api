@@ -7,6 +7,9 @@ const port = 3000;
 
 // a change from new mac
 
+app.get("/time", (req, res) => {
+  console.log('it`s about time');
+})
 // Endpoint to fetch data from JSON file
 app.get("/status", (req, res) => {
   console.log('OK');

@@ -8,6 +8,9 @@ const port = 3000;
 // a change from new mac
 
 // Endpoint to fetch data from JSON file
+app.get("/status", (req, res) => {
+  console.log('OK');
+})
 app.get("/pins", (req, res) => {
   console.log("Fetching pins from JSON file...");
   // Assuming data.json is in the same directory as this script

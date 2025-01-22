@@ -18,7 +18,7 @@ app.get("/pins", (req, res) => {
   fs.readFile(filePath, "utf8", (err, data) => {
     if (err) {
       console.error("Error reading file:", err);
-      return res.status(500).json({ error: "Internal server error" });
+      return res.status(500).json({ error: "Internal server error(500)" });
     }
 
     try {

@@ -5,6 +5,9 @@ const path = require("path");
 const app = express();
 const port = 3000;
 
+app.get("/time", (req, res) => {
+  console.log('it`s about time');
+})
 // Endpoint to fetch data from JSON file
 app.get("/pins", (req, res) => {
   console.log("Fetching data from JSON file...");

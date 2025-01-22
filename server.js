@@ -12,7 +12,7 @@ app.get("/status", (req, res) => {
   console.log('OK');
 })
 app.get("/pins", (req, res) => {
-  console.log("Fetching pins from JSON file...");
+  console.log("Fetching pins from JSON file.....");
   // Assuming data.json is in the same directory as this script
   const filePath = path.join(
     __dirname,
